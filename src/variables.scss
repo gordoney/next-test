@@ -1,0 +1,33 @@
+$colorPureBlack: #000000;
+$colorBlack: #293040;
+$colorLightGray: #f4f4f4;
+$colorDarkGray: #79747e;
+$colorOrange: #d95323;
+$colorPink: #f5d4c8;
+$colorWhite: #ffffff;
+
+$breakpointTablet: 834px;
+
+$fontFamilyMain: "Montserrat", sans-serif;
+
+$fontSizeXXLarge: 32px;
+$fontSizeXLarge: 20px;
+$fontSizeLarge: 16px;
+$fontSizeDefault: 14px;
+$fontSizeSmall: 12px;
+
+$indentMobilePageBorder: 24px;
+$indentTabletPageBorder: 40px;
+
+//theme
+$mainFontColor: $colorBlack;
+$mainBorderColor: $colorBlack;
+$mainBackgroundColor: $colorWhite;
+$secondaryBackgroundColor: $colorLightGray;
+$colorAudioMain: $colorOrange;
+$colorAudioSecondary: $colorPink;
+$colorLink: $colorOrange;
+
+$mainFontSize: $fontSizeDefault;
+$titleFontSize: $fontSizeXXLarge;
+$sectionTitleFontSize: $fontSizeSmall;

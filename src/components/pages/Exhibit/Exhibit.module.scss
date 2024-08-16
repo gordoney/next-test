@@ -1,0 +1,95 @@
+@import "../../../variables.scss";
+
+.exhibit {
+  padding: 40px 0;
+  font-size: $mainFontSize;
+}
+
+.title {
+  margin: 0 0 12px 0;
+  padding: 0 $indentMobilePageBorder;
+  text-align: center;
+  font-weight: bold;
+  font-size: $titleFontSize;
+
+  @media (min-width: $breakpointTablet) {
+    padding: 0 $indentTabletPageBorder;
+  }
+}
+
+.author {
+  padding: 0 $indentMobilePageBorder 32px $indentMobilePageBorder;
+  text-align: center;
+  font-size: $mainFontSize;
+
+  @media (min-width: $breakpointTablet) {
+    padding: 0 $indentTabletPageBorder 32px $indentTabletPageBorder;
+  }
+}
+
+.description {
+  padding: 0 $indentMobilePageBorder 24px $indentMobilePageBorder;
+
+  @media (min-width: $breakpointTablet) {
+    padding: 0 $indentTabletPageBorder 24px $indentTabletPageBorder;
+  }
+}
+
+.descriptionName {
+  padding-bottom: 8px;
+  font-size: $sectionTitleFontSize;
+  font-weight: bold;
+}
+
+.descriptionContent {
+  p {
+    margin-top: 0;
+  }
+
+  table,
+  td,
+  th {
+    border: 1px solid $mainBorderColor;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  td,
+  th {
+    padding: 4px 8px;
+  }
+}
+
+.gallery {
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+.audioPlayer {
+  padding: 0 $indentMobilePageBorder 40px $indentMobilePageBorder;
+
+  @media (min-width: $breakpointTablet) {
+    padding: 0 $indentTabletPageBorder 40px $indentTabletPageBorder;
+  }
+}
+
+.error {
+  padding: 16px;
+  text-align: center;
+  font-size: $fontSizeXLarge;
+}
+
+.link {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: $colorLink;
+  cursor: pointer;
+  font-size: $fontSizeXLarge;
+
+  &:hover {
+    color: darken($colorLink, 10%);
+  }
+}
