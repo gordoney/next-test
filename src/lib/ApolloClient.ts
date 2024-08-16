@@ -6,6 +6,7 @@ import {
 } from "@apollo/experimental-nextjs-app-support";
 
 export const { getClient, query, PreloadQuery } = registerApolloClient(() => {
+  console.log("1111111111", process.env);
   return new ApolloClient({
     cache: new InMemoryCache(),
     link: new HttpLink({
