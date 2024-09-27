@@ -6,7 +6,7 @@ export default function Header() {
   const t = useTranslations();
 
   return (
-    <div className={styles.header} data-testid="header-component" data-test="test2">
+    <div className={styles.header} data-testid="header-componentrrrr" data-test="test2">
       <img className={styles.logo} src="/images/logo.png" alt={t("logo")} />
       <LanguageSwitcher />
     </div>
