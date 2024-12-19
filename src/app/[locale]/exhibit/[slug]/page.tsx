@@ -10,5 +10,5 @@ interface Props {
 export default async function ExhibitPage({ params: { slug } }: Props) {
   const exhibit = await getExhibit(slug);
 
-  return <>{exhibit && <Exhibit exhibit={exhibit} slug={slug} />}</>;
+  return <div>{exhibit && <Exhibit exhibit={exhibit} slug={slug} />}</div>;
 }
